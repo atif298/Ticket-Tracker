@@ -1,0 +1,31 @@
+@use "../../assets/sass/_variables.scss" as *;
+
+
+.button {
+    &__plus {
+        border: none;
+        background-color: transparent;
+        color: $light-blue;
+        font-size: 40px;
+        cursor: pointer;
+
+        &:hover {
+            color: $bright-blue;
+            transition: all 150ms ease-in-out; 
+        }
+    }
+
+    &__minus {
+        border: none;
+        background-color: transparent;
+        color: $light-blue;
+        font-size: 40px;
+        cursor: pointer;
+
+        &:hover {
+            color: $bright-blue;
+            transition: all 150ms ease-in-out;
+        }
+    }
+
+}
