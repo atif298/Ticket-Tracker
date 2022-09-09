@@ -8,9 +8,9 @@ const App = () => {
   return (
     <div className="app">
       <header>
-        <h1 className='app__heading'>Ticket Tracker</h1>
+        <h1 className='app__heading'>TICKET TRACKER</h1>
       </header>
-      <EmployeCard teamArr={team} />
+      <EmployeCard className="app__container" teamArr={team} />
     </div>
   );
 }

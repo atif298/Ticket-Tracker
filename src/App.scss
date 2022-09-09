@@ -1,0 +1,22 @@
+@use "./assets/sass/_variables.scss" as *;
+
+
+
+.app {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,22,22);
+    background: linear-gradient(323deg,
+                $shadow-blue 0%,
+                $gradient-blue 100%);
+
+    &__heading {
+        padding-bottom: 30px;
+        text-align: center;
+        color: $white;
+    }
+
+}
