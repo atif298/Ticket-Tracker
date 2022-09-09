@@ -5,15 +5,15 @@ import "./EmployeCard.scss";
 const EmployeCard = ({teamArr}) => {
     const employecardJSX = teamArr.map((employe) => {
         return (
-            <div className='employe-card'>
-            <h2>{employe.name}</h2>
-            <h3>{employe.role}</h3>
-            <Counter />
+            <div className='employe-cards__each'>
+                <h2 className='employe-cards__name'>{employe.name}</h2>
+                <h3 className='employe-cards__role'>{employe.role}</h3>
+                <Counter />
             </div>
         )})
 
   return (
-    <div>
+    <div className='employe-cards'>
         {employecardJSX}
     </div>
     )
